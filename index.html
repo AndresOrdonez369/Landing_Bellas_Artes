@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
         
         <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
         
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets/css/styles.css">
@@ -99,7 +99,38 @@
 
             <!--==================== ABOUT ====================-->
             <section class="about section" id="about">
-
+                <h2 class="section__title"> Nosotros </h2>
+                <span class="section__subtitle">¿ Quienes somos ? </span>
+                <div class="about__container container grid">
+                    <video class="about__img"  autoplay muted loop>
+                        <source src="assets/img/movie.mp4" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                        Your browser does not support the video tag.
+                      </video>
+                    <!-- <img src="assets/img/about.jpg" alt="" class="about__img"> -->
+                    <div class="about__data">
+                        <p class="about__description"> Espacio de creación con impresoras, unidad 3d y mucho más, disfruta la gran experiencia que significa trabajar con Campus, no te arrepentiras, el arte y la tecnologia iran de la mano.</p>
+                    </div>
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">+100</span>
+                            <span class="about__info-name">Insumos <br> tecnologicos</span> 
+                        </div>
+                        <div>
+                            <span class="about__info-title"> 10</span>
+                            <span class="about__info-name">Laboratios</span> 
+                        </div>
+                        <div>
+                            <span class="about__info-title"> 5</span>
+                            <span class="about__info-name">Servicios <br> especializados</span> 
+                        </div>
+                    </div>
+                        <div class="about__buttons">
+                            <a download="" href="assets/pdf/Alexa-Cv.pdf" class="button buttton--flex">
+                            Descargar Catalogo de productos<i class="uil uil-download-alt button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
         
             </section>
 
@@ -117,12 +148,251 @@
 
             <!--==================== SERVICES ====================-->
             <section class="services section" id="services">
-                
+                <h2 class="section__title">Servicios</h2>
+                <span class="section__subtitle">¿ Qué ofrecemos ?</span>
+                <div class="services__container container grid">
+                    <!--==================== SERVICES 1 ====================-->
+                    <div class="services__content">
+                        <div>
+                          <i class="uil uil-cube services__icon"></i>
+                           <h3 class="services__title"> Laboratorio de <br>captación de movimiento </h3>
+                        </div> 
 
+                        <span class=" button--flex button--small button--link services__button">
+                            Ver más
+                            <i class="uil uil-arrow-right button__icon"></i>  
+                        </span>
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">
+                                    Alquiler del servicio de realidad expandida a través del uso de diferentes insumos tecnologicos
+                                </h4>
+                                <i class="uil uil-times services__modal-close"></i>
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Oculus rift S</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Scanner 3D</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Leap Motion</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Motion Caption</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--==================== SERVICES 2 ====================-->
+                    <div class="services__content">
+                        <div>
+                          <i class="uil uil-print services__icon"></i>
+                           <h3 class="services__title"> Prototipado <br>y solución Hardware </h3>
+                        </div> 
+
+                        <span class=" button--flex button--small button--link services__button">
+                            Ver más
+                            <i class="uil uil-arrow-right button__icon"></i>  
+                        </span>
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">
+                                    Elaboración de prototipos hardware a solicitud con apoyo de impresoras, ruteadora, cortadora y tarjetas de adquisición
+                                </h4>
+                                <i class="uil uil-times services__modal-close"></i>
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Oculus rift S</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Scanner 3D</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Leap Motion</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Motion Caption</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--==================== SERVICES 3 ====================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-web-grid services__icon"></i>
+                           <h3 class="services__title">Producción y desarrollo de <br>contenidos digitales </h3>
+                        </div> 
+
+                        <span class=" button--flex button--small button--link services__button">
+                            Ver más
+                            <i class="uil uil-arrow-right button__icon"></i>  
+                        </span>
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">
+                                    Diseño 2D, 3D, ilustraciones, paginas web, videojuegos y aplicativos móviles a pedido.
+                                </h4>
+                                <i class="uil uil-times services__modal-close"></i>
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Oculus rift S</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Scanner 3D</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Leap Motion</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Motion Caption</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--==================== SERVICES 4 ====================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-sliders-v-alt services__icon"></i>
+                           <h3 class="services__title">Producción <br>sonido y video ( streaming ) </h3>
+                        </div> 
+
+                        <span class="button--flex button--small button--link services__button">
+                            Ver más
+                            <i class="uil uil-arrow-right button__icon"></i>  
+                        </span>
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">
+                                    Grabación, edición, producción y postproducción de toda la cadena de valor del audio y video
+                                </h4>
+                                <i class="uil uil-times services__modal-close"></i>
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Oculus rift S</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Scanner 3D</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Leap Motion</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Motion Caption</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--==================== SERVICES 5 ====================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-edit services__icon"></i>
+                           <h3 class="services__title">Exposiciones, <br>encuentros y eventos </h3>
+                        </div> 
+
+                        <span class="button--flex button--small button--link services__button">
+                            Ver más
+                            <i class="uil uil-arrow-right button__icon"></i>  
+                        </span>
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">
+                                    Desarrollo y/o planificación de eventos virtuales y presenciales.
+                                </h4>
+                                <i class="uil uil-times services__modal-close"></i>
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Oculus rift S</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Scanner 3D</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Leap Motion</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Motion Caption</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <!--==================== PORTFOLIO ====================-->
-            <section class="portfolio section" id="portfolio">
+            <section class="portfolio section" id="portafolio">
+                <h2 class="section__title">Portafolio</h2>
+                <span class="section__subtitle">Trabajo reciente</span>
+                <!--==================== PORTFOLIO 1 ====================-->
+                <div class="portfolio__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
+                                <div class="portfolio__data">
+                                    <h3 class="portfolio__title">Digital Twin Laboratorios</h3>
+                                 <p class="portfolio__description">Digital Twin de laboratorios de Bellas Artes con uso del motor de videojuegos Unity, Esp8266, raspberry pi3 y el protocolo de comunicación MQTT.</p>
+                                 <a href="#" class="button button--flex button--small portfolio__button">
+                                  Demo
+                                 <i class="uil uil-arrow-right button__icon"></i>  
+                                 </a>
+                                </div>
+                        </div>
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
+                            <div class="portfolio__data">
+                              <h3 class="portfolio__title">Virtual reality con Unity y leap motion</h3>
+                              <p class="portfolio__description">Laboratorio de realidad virtual con Oculus Rift S, Unity y leap motion.</p>
+                              <a href="#" class="button button--flex button--small portfolio__button">
+                              Demo
+                              <i class="uil uil-arrow-right button__icon"></i>  
+                          </a>
+                          </div>
+                        </div> 
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
+                            <div class="portfolio__data">
+                              <h3 class="portfolio__title">Producción de MOC</h3>
+                              <p class="portfolio__description">Producción digital de video profesional en MOC de maquillaje, música, entre otros.</p>
+                              <a href="#" class="button button--flex button--small portfolio__button">
+                              Demo
+                              <i class="uil uil-arrow-right button__icon"></i>  
+                             </a>
+                            </div>
+                        </div> 
+                    </div>
+                
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                </div>
+                
+                
                 
 
             </section>
@@ -156,7 +426,7 @@
         
 
         <!--==================== SWIPER JS ====================-->
-        <script src=""></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
 
         <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>
