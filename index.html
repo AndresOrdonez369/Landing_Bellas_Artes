@@ -23,7 +23,7 @@
                  <div class="nav__menu" id="nav-menu">
                      <ul class="nav__list grid">
                          <li class="nav__item">
-                             <a href="#home" class="nav__link">
+                             <a href="#home" class="nav__link active-link">
                                 <i class="uil uil-estate nav__icon"></i> Inicio
                              </a>
                          </li>
@@ -50,7 +50,10 @@
                      </ul>
                      <i class="uil uil-times nav__close" id="nav-close"></i>
                  </div>
+
                  <div class="nav__btns">
+                    <!--Tema oscuro-->
+                      <i class="uil uil-moon change-theme" id="theme-button">  </i>
                      <div class="nav__toggle" id="nav-toggle">
                         <i class="uil uil-apps"></i>
                      </div>
@@ -134,17 +137,6 @@
         
             </section>
 
-            <!--==================== SKILLS ====================-->
-            <section class="skills section" id="skills">
-
-
-            </section>
-
-            <!--==================== QUALIFICATION ====================-->
-            <section class="qualification section">
-
-
-            </section>
 
             <!--==================== SERVICES ====================-->
             <section class="services section" id="services">
@@ -356,7 +348,7 @@
                                 <div class="portfolio__data">
                                     <h3 class="portfolio__title">Digital Twin Laboratorios</h3>
                                  <p class="portfolio__description">Digital Twin de laboratorios de Bellas Artes con uso del motor de videojuegos Unity, Esp8266, raspberry pi3 y el protocolo de comunicación MQTT.</p>
-                                 <a href="#" class="button button--flex button--small portfolio__button">
+                                 <a href="https://drive.google.com/drive/folders/1GI4t5hDQxIaXhYpcEy1QlvsMpAQSNZTi?usp=sharing" target="_blank" class="button button--flex button--small portfolio__button">
                                   Demo
                                  <i class="uil uil-arrow-right button__icon"></i>  
                                  </a>
@@ -388,8 +380,13 @@
                 
                 <!-- Add Pagination -->
                 <div class="swiper-pagination"></div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+
+                <div class="swiper-button-next">
+                    <i class="uil uil-arrow-right swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-arrow-left swiper-portfolio-icon"></i>
+                </div>
                 </div>
                 
                 
@@ -398,32 +395,102 @@
             </section>
 
             <!--==================== PROJECT IN MIND ====================-->
-            <section class="project section">
 
-
-            </section>
 
             <!--==================== TESTIMONIAL ====================-->
-            <section class="testimonial section">
-                
-
-            </section>
 
             <!--==================== CONTACT ME ====================-->
             <section class="contact section" id="contact">
-
+                <h2 class="section__title">Contáctanos</h2>
+                <span class="section__subtitle">Estemos en contacto</span>
+                <div class="contact__container container grid">
+                    <div>
+                        <div class="contact__information"> 
+                            <i class="uil uil-phone contact__icon">  </i>
+                            <div>
+                                <h3 class="contact__title">Llamanos</h3>
+                                <span class="contact__subtitle"> +57 315 719 1848   </span>
+                            </div>
+                        </div>
+                        <div class="contact__information"> 
+                            <i class="uil uil-envelope contact__icon">  </i>
+                            <div>
+                                <h3 class="contact__title">Correo</h3>
+                                <span class="contact__subtitle"> sistemas.campus@bellasartes.edu.co   </span>
+                            </div>
+                        </div>
+                        <div class="contact__information"> 
+                            <i class="uil uil-map-marker contact__icon">  </i>
+                            <div>
+                                <h3 class="contact__title">Ubicación</h3>
+                                <span class="contact__subtitle"> Cali, Colombia  </span>
+                            </div>
+                        </div>
+                    </div>
+                    <form action="" class="contact__form grid">
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Nombre</label>
+                            <input type="text" class="contact__input">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Email</label>
+                            <input type="email" class="contact__input">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Mensaje</label>
+                            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        </div>
+                        <div>
+                            <a href="#" class="button button--flex">
+                                Enviar mensaje
+                                <i class="uil uil-message button__icon">  </i>
+                            </a>
+                        </div>
+                    </form>
+                </div>
 
             </section>
         </main>
 
         <!--==================== FOOTER ====================-->
         <footer class="footer">
-
-            
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Campus centro</h1>
+                        <span class="footer__subtitle">Laboratorios</span>
+                    </div>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#services" class="footer__link">Servicios</a>
+                        </li>
+                        <li>
+                            <a href="#portafolio" class="footer__link">Portafolio</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer__link">Contactanos</a>
+                        </li>
+                    </ul>
+                    <div class="footer__socials">
+                        <a href="https://www.facebook.com/BellasArtesCali" target="_blank" class="footer__social">
+                            <i class="uil uil-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/bellasartescali/" target="_blank" class="footer__social">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/oswaldo-ordonez/" target="_blank" class="footer__social">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                <p class="footer__copy">&#169; Campus centro. Todos los derechos reservados.</p>
+            </div>
         </footer>
         
         <!--==================== SCROLL TOP ====================-->
-        
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
 
         <!--==================== SWIPER JS ====================-->
         <script src="assets/js/swiper-bundle.min.js"></script>
