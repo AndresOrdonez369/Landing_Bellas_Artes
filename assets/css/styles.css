@@ -56,6 +56,7 @@
     --mb-3: 3rem;
     --mb-4: 4rem;
     --mb-5: 5rem;
+    --mb-6: 6rem;
     /*========== z index ==========*/
     --z-tooltip: 10;
     --z-fixed: 100;
@@ -465,7 +466,7 @@ img{
     display: flex;
 }
 .services__modal-title{
-    font-size: var(--h3-font-size);
+    font-size: var(--h4-font-size);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-1-5);
 }
@@ -495,6 +496,7 @@ img{
 }
 .portfolio__content{
     padding: 0 1.5rem;
+    margin-top: var(--mb-6);
 }
 .portfolio__img{
     width: 256px;
@@ -529,7 +531,7 @@ img{
     bottom: -2.5rem;
 }
 .swiper-pagination-bullet-active{
-    background-color: var(--first-color-second);
+    background-color: var(--first-color);
 }
 .swiper-button-prev,
 .swiper-button-next,
@@ -875,7 +877,7 @@ img{
         grid-template-columns: repeat(2, 1fr);
     }
     .section__title{
-        margin-top: var(--mb-3);
+        margin-top: var(--mb-4);
     }
     .button-home{
         margin-top: var(--mb-5);
