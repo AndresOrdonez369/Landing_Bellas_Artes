@@ -13,15 +13,13 @@
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
-        <title>Portafolio Campus </title>
+        <title>Portafolio Campus Centro</title>
     </head>
     <body>
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
              <nav class="nav container">
-                 <a href="#" class="nav__logo"> 
-                      Campus
-                 </a>
+                 <a href="#" class="nav_logo">Campus Centro</a>
                  <div class="nav__menu" id="nav-menu">
                      <ul class="nav__list grid">
                          <li class="nav__item">
@@ -54,8 +52,8 @@
                  </div>
 
                  <div class="nav__btns">
-                    <!--Tema claro-->
-                      <i class="uil uil-sun change-theme" id="theme-button">  </i>
+                    <!--Tema oscuro-->
+                      <i class="uil uil-moon change-theme" id="theme-button">  </i>
                      <div class="nav__toggle" id="nav-toggle">
                         <i class="uil uil-apps"></i>
                      </div>
@@ -84,11 +82,10 @@
                         <img class="home__blob-img" src="assets/img/logo_campus.png"/>
                      </div>
                      <div class="home__data">
-                         <h1 class="home__title" data-aos="fade-up"
-                         data-aos-duration="3000" >Laboratorios Campus</h1>
-                         <h3 class="home__subtitle">Espacio de creación, construcción e investigación</h3>
+                         <h1 class="home__title">Hola, somos Campus Centro</h1>
+                         <h3 class="home__subtitle">Espacio de creación, construcción y emprendimiento</h3>
                          <p class="home__description">Experiencias y espacios para innovación en arte y tecnología.</p>
-                         <a href="#contact" class="button-home button button--flex">
+                         <a href="#contact" class="button button--flex">
                              Contáctanos <i class="uil uil-message button__icon"></i>
                          </a>
                      </div>
@@ -108,30 +105,34 @@
                 <h2 class="section__title"> Nosotros </h2>
                 <span class="section__subtitle">¿ Quienes somos ? </span>
                 <div class="about__container container grid">
-                    <img src="assets/img/streamingCampus1.jpeg" alt="" class="about__img">
+                    <video class="about__img"  autoplay muted loop>
+                        <source src="assets/img/movie.mp4" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                        Your browser does not support the video tag.
+                      </video>
+                    <!-- <img src="assets/img/about.jpg" alt="" class="about__img"> -->
                     <div class="about__data">
                         <p class="about__description"> Espacio de creación con impresoras, unidad 3d y mucho más, disfruta la gran experiencia que significa trabajar con Campus, no te arrepentiras, el arte y la tecnologia iran de la mano.</p>
-                        <div class="about__info">
-
-                            <div>
-                                <span class="about__info-title">+200</span>
-                                <span class="about__info-name">Insumos <br> tecnológicos</span> 
-                            </div>
-                            <div>
-                                <span class="about__info-title"> 6</span>
-                                <span class="about__info-name">Unidades <br>operativas</span> 
-                            </div>
-                            <div>
-                                <span class="about__info-title">+5</span>
-                                <span class="about__info-name">Servicios <br>especializados</span> 
-                            </div>
+                    </div>
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">+100</span>
+                            <span class="about__info-name">Insumos <br> tecnologicos</span> 
+                        </div>
+                        <div>
+                            <span class="about__info-title"> 10</span>
+                            <span class="about__info-name">Laboratios</span> 
+                        </div>
+                        <div>
+                            <span class="about__info-title"> 5</span>
+                            <span class="about__info-name">Servicios <br> especializados</span> 
                         </div>
                     </div>
-                    <div class="about__buttons">
-                            <a download="" href="assets/pdf/LaboratoriosCampus2021.pdf" class="button button--flex">
-                            Catalogo de productos<i class="uil uil-download-alt button__icon"></i>
+                        <div class="about__buttons">
+                            <a download="" href="assets/pdf/Alexa-Cv.pdf" class="button buttton--flex">
+                            Descargar Catalogo de productos<i class="uil uil-download-alt button__icon"></i>
                             </a>
-                    </div>
+                        </div>
                     </div>
         
             </section>
@@ -145,8 +146,8 @@
                     <!--==================== SERVICES 1 ====================-->
                     <div class="services__content">
                         <div>
-                           <i class="uil uil-cube services__icon"></i>
-                           <h3 class="services__title"> Laboratorio de <br>captación de <br> movimiento </h3>
+                          <i class="uil uil-cube services__icon"></i>
+                           <h3 class="services__title"> Laboratorio de <br>captación de movimiento </h3>
                         </div> 
 
                         <span class=" button--flex button--small button--link services__button">
@@ -155,7 +156,9 @@
                         </span>
                         <div class="services__modal">
                             <div class="services__modal-content">
-                                <h4 class="services__modal-title">Alquiler del servicio de realidad<br> expandida a través del uso de diferentes insumos tecnologicos</h4>
+                                <h4 class="services__modal-title">
+                                    Alquiler del servicio de realidad expandida a través del uso de diferentes insumos tecnologicos
+                                </h4>
                                 <i class="uil uil-times services__modal-close"></i>
                                 <ul class="services__modal-services grid">
                                     <li class="services__modal-service">
@@ -182,7 +185,7 @@
                     <div class="services__content">
                         <div>
                           <i class="uil uil-print services__icon"></i>
-                           <h3 class="services__title"> Prototipado <br>y solución <br> Hardware </h3>
+                           <h3 class="services__title"> Prototipado <br>y solución Hardware </h3>
                         </div> 
 
                         <span class=" button--flex button--small button--link services__button">
@@ -220,7 +223,7 @@
                     <div class="services__content">
                         <div>
                             <i class="uil uil-web-grid services__icon"></i>
-                           <h3 class="services__title">Producción <br> y desarrollo de <br>contenidos digitales </h3>
+                           <h3 class="services__title">Producción y desarrollo de <br>contenidos digitales </h3>
                         </div> 
 
                         <span class=" button--flex button--small button--link services__button">
@@ -258,7 +261,7 @@
                     <div class="services__content">
                         <div>
                             <i class="uil uil-sliders-v-alt services__icon"></i>
-                           <h3 class="services__title">Producción <br>sonido y video <br> (streaming) </h3>
+                           <h3 class="services__title">Producción <br>sonido y video ( streaming ) </h3>
                         </div> 
 
                         <span class="button--flex button--small button--link services__button">
@@ -296,7 +299,7 @@
                     <div class="services__content">
                         <div>
                             <i class="uil uil-edit services__icon"></i>
-                           <h3 class="services__title">Exposiciones, <br>encuentros y<br> eventos </h3>
+                           <h3 class="services__title">Exposiciones, <br>encuentros y eventos </h3>
                         </div> 
 
                         <span class="button--flex button--small button--link services__button">
@@ -424,24 +427,24 @@
                             </div>
                         </div>
                     </div>
-                    <form action="mail.php" class="contact__form grid" method="post">
+                    <form action="" class="contact__form grid">
                         <div class="contact__content">
-                            <label for="" name="name" placeholder="Ingresa tu nombre" class="contact__label">Nombre</label>
+                            <label for="" class="contact__label">Nombre</label>
                             <input type="text" class="contact__input">
                         </div>
                         <div class="contact__content">
                             <label for="" class="contact__label">Email</label>
-                            <input type="email" name="emailaddress" placeholder="Ingresa tu correo" class="contact__input">
+                            <input type="email" class="contact__input">
                         </div>
                         <div class="contact__content">
                             <label for="" class="contact__label">Mensaje</label>
-                            <textarea block name="message" id="" cols="0" rows="7" placeholder="Ingresa tu solicitud o mensaje" class="contact__input"></textarea>
+                            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
                         </div>
                         <div>
-                            <button type= "submit" class="button button--flex">
+                            <a href="#" class="button button--flex">
                                 Enviar mensaje
                                 <i class="uil uil-message button__icon">  </i>
-                            </button>
+                            </a>
                         </div>
                     </form>
                 </div>
@@ -454,7 +457,7 @@
             <div class="footer__bg">
                 <div class="footer__container container grid">
                     <div>
-                        <h1 class="footer__title">Campus</h1>
+                        <h1 class="footer__title">Campus centro</h1>
                         <span class="footer__subtitle">Laboratorios</span>
                     </div>
                     <ul class="footer__links">
@@ -480,7 +483,7 @@
                         </a>
                     </div>
                 </div>
-                <p class="footer__copy">&#169; Campus 2021 . Todos los derechos reservados.</p>
+                <p class="footer__copy">&#169; Campus centro. Todos los derechos reservados.</p>
             </div>
         </footer>
         
@@ -494,11 +497,5 @@
 
         <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>
-        <!--=================DATA AOS SCROLL JS-->
-        <!-- Scrool on animation-->
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-            AOS.init();
-        </script>
     </body>
 </html>
