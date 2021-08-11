@@ -2,7 +2,12 @@
 const navMenu = document.getElementById('nav-menu'),
      navToggle = document.getElementById('nav-toggle'),
      navClose = document.getElementById('nav-close')
-
+     
+     
+     AOS.init({
+        duration: 1200,
+      })
+      
 /*===== MENU SHOW =====*/
 /* Validate if constant exists */
 if(navToggle){
