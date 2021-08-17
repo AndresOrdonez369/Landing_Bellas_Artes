@@ -1,9 +1,17 @@
 <!DOCTYPE html>
-    <html lang="en">
+    <html lang="es">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="title" content="Laboratorios Campus">
+        <meta name="description" content="Campus Laboratories is a space for creation, production and research with a diversity of technological inputs and the accompaniment of experts.">
+        <meta name="keywords" content="Laboratorios, laboratory, Laboratories, tech, art, tecnología, arte, 3D, print, research, motioncaption, services, camera, production, bellas, artes, fine, arts, technological, technology, art, ">
+        <meta name="robots" content="index, follow">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="language" content="Spanish">
 
+        <!--==================== AOSJS ====================-->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <!--==================== UNICONS ====================-->
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
         
@@ -13,13 +21,18 @@
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
-        <title>Portafolio Campus Centro</title>
+        <!--====================ICON =====================-->
+        <link rel="icon" href="/assets/img/logo_campus.png">
+
+        <title>Laboratorios Campus </title>
     </head>
     <body>
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
              <nav class="nav container">
-                 <a href="#" class="nav_logo">Campus Centro</a>
+                 <a href="#" class="nav__logo"> 
+                      Campus
+                 </a>
                  <div class="nav__menu" id="nav-menu">
                      <ul class="nav__list grid">
                          <li class="nav__item">
@@ -52,8 +65,8 @@
                  </div>
 
                  <div class="nav__btns">
-                    <!--Tema oscuro-->
-                      <i class="uil uil-moon change-theme" id="theme-button">  </i>
+                    <!--Tema claro-->
+                      <i class="uil uil-sun change-theme" id="theme-button">  </i>
                      <div class="nav__toggle" id="nav-toggle">
                         <i class="uil uil-apps"></i>
                      </div>
@@ -65,7 +78,7 @@
         <main class="main">
             <!--==================== HOME ====================-->
             <section class="home section" id="home">
-             <div class="home__container container grid">
+             <article class="home__container container grid">
                  <div class="home__content grid"> 
                      <div class="home__social">
                          <a href="https://www.linkedin.com/" target="_blank" class="home__social-icon">
@@ -79,13 +92,22 @@
                         </a>
                      </div>
                      <div class="home__img">
-                        <img class="home__blob-img" src="assets/img/logo_campus.png"/>
+                        <img class="home__blob-img" data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1000" src="assets/img/logo_campus.png"/>
                      </div>
                      <div class="home__data">
-                         <h1 class="home__title">Hola, somos Campus Centro</h1>
-                         <h3 class="home__subtitle">Espacio de creación, construcción y emprendimiento</h3>
-                         <p class="home__description">Experiencias y espacios para innovación en arte y tecnología.</p>
-                         <a href="#contact" class="button button--flex">
+                         <h1 class="home__title" data-aos="fade-right"
+                         data-aos-duration="1000"
+                         data-aos-easing="ease-in-sine">Laboratorios Campus</h1>
+                         <h3 class="home__subtitle" data-aos="fade-right"
+                         data-aos-duration="1000"
+                         data-aos-easing="ease-in-sine"
+                       >Espacio de creación, construcción e investigación</h3>
+                         <p class="home__description" data-aos="fade-right"
+                         data-aos-duration="1000"
+                         data-aos-easing="ease-in-sine">Experiencias y espacios para innovación en arte y tecnología.</p>
+                         <a href="#contact" class="button-home button button--flex" data-aos="fade-left" data-aos-duration="1000">
                              Contáctanos <i class="uil uil-message button__icon"></i>
                          </a>
                      </div>
@@ -97,57 +119,56 @@
                         <i class="uil uil-arrow-down home__scroll-arrow"></i>
                      </a>
                  </div>
-             </div>   
+             </article>   
             </section>
-
             <!--==================== ABOUT ====================-->
-            <section class="about section" id="about">
+            <section class="about section" id="about" 
+            data-aos="fade-down"
+            data-aos-duration="1200">
                 <h2 class="section__title"> Nosotros </h2>
-                <span class="section__subtitle">¿ Quienes somos ? </span>
-                <div class="about__container container grid">
-                    <video class="about__img"  autoplay muted loop>
-                        <source src="assets/img/movie.mp4" type="video/mp4">
-                        <source src="movie.ogg" type="video/ogg">
-                        Your browser does not support the video tag.
-                      </video>
-                    <!-- <img src="assets/img/about.jpg" alt="" class="about__img"> -->
+                <span class="section__subtitle">¿ Qué es Laboratorios Campus ? </span>
+                <article class="about__container container grid">
+                    <img src="assets/img/streamingCampus1.jpeg" alt="" class="about__img">
                     <div class="about__data">
-                        <p class="about__description"> Espacio de creación con impresoras, unidad 3d y mucho más, disfruta la gran experiencia que significa trabajar con Campus, no te arrepentiras, el arte y la tecnologia iran de la mano.</p>
+                        <p class="about__description"> Espacio de creación, producción e investigación con diversidad de insumos tecnologicos y el acompañamiento de expertos. Con Campus disfrutarás una experiencia que permitirá que la union entre arte y tecnología genere productos y servicios de valor.</p>
+                        <div class="about__info">
+
+                            <div>
+                                <span class="about__info-title">+200</span>
+                                <span class="about__info-name">Insumos <br> tecnológicos</span> 
+                            </div>
+                            <div>
+                                <span class="about__info-title"> 6</span>
+                                <span class="about__info-name">Unidades <br>operativas</span> 
+                            </div>
+                            <div>
+                                <span class="about__info-title">+6</span>
+                                <span class="about__info-name">Servicios <br>especializados</span> 
+                            </div>
+                        </div>
                     </div>
-                    <div class="about__info">
-                        <div>
-                            <span class="about__info-title">+100</span>
-                            <span class="about__info-name">Insumos <br> tecnologicos</span> 
-                        </div>
-                        <div>
-                            <span class="about__info-title"> 10</span>
-                            <span class="about__info-name">Laboratios</span> 
-                        </div>
-                        <div>
-                            <span class="about__info-title"> 5</span>
-                            <span class="about__info-name">Servicios <br> especializados</span> 
-                        </div>
-                    </div>
-                        <div class="about__buttons">
-                            <a download="" href="assets/pdf/Alexa-Cv.pdf" class="button buttton--flex">
-                            Descargar Catalogo de productos<i class="uil uil-download-alt button__icon"></i>
+                    <div class="about__buttons">
+                            <a download="" href="assets/pdf/LaboratoriosCampus2021.pdf" class="button button--flex">
+                            Catalogo de productos<i class="uil uil-download-alt button__icon"></i>
                             </a>
-                        </div>
                     </div>
+                </article>
         
             </section>
 
 
             <!--==================== SERVICES ====================-->
-            <section class="services section" id="services">
-                <h2 class="section__title">Servicios</h2>
-                <span class="section__subtitle">¿ Qué ofrecemos ?</span>
-                <div class="services__container container grid">
+            <section class="services section" id="services"
+            data-aos="fade-down"
+            data-aos-duration="1200">
+                <h2 class="section__title">Unidades Operativas</h2>
+                <span class="section__subtitle">¿ Qué unidades tienes Campus ?</span>
+                <article class="services__container container grid">
                     <!--==================== SERVICES 1 ====================-->
                     <div class="services__content">
                         <div>
-                          <i class="uil uil-cube services__icon"></i>
-                           <h3 class="services__title"> Laboratorio de <br>captación de movimiento </h3>
+                           <i class="uil uil-cube services__icon"></i>
+                           <h3 class="services__title"> Captación de <br> movimiento y <br>realidad 3D.</h3>
                         </div> 
 
                         <span class=" button--flex button--small button--link services__button">
@@ -156,9 +177,8 @@
                         </span>
                         <div class="services__modal">
                             <div class="services__modal-content">
-                                <h4 class="services__modal-title">
-                                    Alquiler del servicio de realidad expandida a través del uso de diferentes insumos tecnologicos
-                                </h4>
+                                <h4 class="services__modal-title">Escaneo de elementos 3D, captación de movimientos<br> y visualización y modificación de elementos a través<br> de cascos de realidad virtual y leap motion.
+                                    </h4>
                                 <i class="uil uil-times services__modal-close"></i>
                                 <ul class="services__modal-services grid">
                                     <li class="services__modal-service">
@@ -176,6 +196,10 @@
                                     <li class="services__modal-service">
                                         <i class="uil uil-check-circle services__modal-icon"></i>
                                         <p>Motion Caption</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Y mucho más</p>
                                     </li>
                                 </ul>
                             </div>
@@ -185,7 +209,7 @@
                     <div class="services__content">
                         <div>
                           <i class="uil uil-print services__icon"></i>
-                           <h3 class="services__title"> Prototipado <br>y solución Hardware </h3>
+                           <h3 class="services__title"> Diseño de<br> artefactos y<br> prototipos. </h3>
                         </div> 
 
                         <span class=" button--flex button--small button--link services__button">
@@ -195,25 +219,29 @@
                         <div class="services__modal">
                             <div class="services__modal-content">
                                 <h4 class="services__modal-title">
-                                    Elaboración de prototipos hardware a solicitud con apoyo de impresoras, ruteadora, cortadora y tarjetas de adquisición
+                                    Elaboración de prototipos hardware con apoyo de impresoras 3D, ruteadora CNC, cortadora laser, plotter de corte y tarjetas de adquisición.
                                 </h4>
                                 <i class="uil uil-times services__modal-close"></i>
                                 <ul class="services__modal-services grid">
                                     <li class="services__modal-service">
                                         <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Oculus rift S</p>
+                                        <p>CNC</p>
                                     </li>
                                     <li class="services__modal-service">
                                         <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Scanner 3D</p>
+                                        <p>Impresoras 3D</p>
                                     </li>
                                     <li class="services__modal-service">
                                         <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Leap Motion</p>
+                                        <p>Plotter de corte</p>
                                     </li>
                                     <li class="services__modal-service">
                                         <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Motion Caption</p>
+                                        <p>Cortadora laser</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Y mucho más</p>
                                     </li>
                                 </ul>
                             </div>
@@ -223,7 +251,7 @@
                     <div class="services__content">
                         <div>
                             <i class="uil uil-web-grid services__icon"></i>
-                           <h3 class="services__title">Producción y desarrollo de <br>contenidos digitales </h3>
+                           <h3 class="services__title">Espacio <br> polivalente </h3>
                         </div> 
 
                         <span class=" button--flex button--small button--link services__button">
@@ -239,19 +267,23 @@
                                 <ul class="services__modal-services grid">
                                     <li class="services__modal-service">
                                         <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Oculus rift S</p>
+                                        <p>Wacom Cintiq 24''</p>
                                     </li>
                                     <li class="services__modal-service">
                                         <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Scanner 3D</p>
+                                        <p>Wacom Intous Pro</p>
                                     </li>
                                     <li class="services__modal-service">
                                         <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Leap Motion</p>
+                                        <p>Imac</p>
                                     </li>
                                     <li class="services__modal-service">
                                         <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Motion Caption</p>
+                                        <p>MacBookPro</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Y mucho más</p>
                                     </li>
                                 </ul>
                             </div>
@@ -261,7 +293,7 @@
                     <div class="services__content">
                         <div>
                             <i class="uil uil-sliders-v-alt services__icon"></i>
-                           <h3 class="services__title">Producción <br>sonido y video ( streaming ) </h3>
+                           <h3 class="services__title">Producción de<br>sonido.<br></h3>
                         </div> 
 
                         <span class="button--flex button--small button--link services__button">
@@ -277,19 +309,23 @@
                                 <ul class="services__modal-services grid">
                                     <li class="services__modal-service">
                                         <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Oculus rift S</p>
+                                        <p>Consola digital M32RLIVE MIDAS</p>
                                     </li>
                                     <li class="services__modal-service">
                                         <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Scanner 3D</p>
+                                        <p>PRTools</p>
                                     </li>
                                     <li class="services__modal-service">
                                         <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Leap Motion</p>
+                                        <p>Consola de audio SoundCraft</p>
                                     </li>
                                     <li class="services__modal-service">
                                         <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Motion Caption</p>
+                                        <p>Microfono de condensador Shure</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Y mucho más</p>
                                     </li>
                                 </ul>
                             </div>
@@ -299,7 +335,7 @@
                     <div class="services__content">
                         <div>
                             <i class="uil uil-edit services__icon"></i>
-                           <h3 class="services__title">Exposiciones, <br>encuentros y eventos </h3>
+                           <h3 class="services__title">Transmisión y <br>videostreaming</h3>
                         </div> 
 
                         <span class="button--flex button--small button--link services__button">
@@ -309,42 +345,90 @@
                         <div class="services__modal">
                             <div class="services__modal-content">
                                 <h4 class="services__modal-title">
-                                    Desarrollo y/o planificación de eventos virtuales y presenciales.
+                                    Producción de contenidos digitales, videos promocionales, obras, entre otros.
                                 </h4>
                                 <i class="uil uil-times services__modal-close"></i>
                                 <ul class="services__modal-services grid">
                                     <li class="services__modal-service">
                                         <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Oculus rift S</p>
+                                        <p> Consola de emisión/transmisión Telestream Wirecast Gear 210 </p>
                                     </li>
                                     <li class="services__modal-service">
                                         <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Scanner 3D</p>
+                                        <p>Sistema teleconfernecia Logitech</p>
                                     </li>
                                     <li class="services__modal-service">
                                         <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Leap Motion</p>
+                                        <p>Jvc 4K Camara</p>
                                     </li>
                                     <li class="services__modal-service">
                                         <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Motion Caption</p>
+                                        <p>Ronin-S</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Y mucho más</p>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                </div>
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-edit services__icon"></i>
+                           <h3 class="services__title">Contenidos audiovisuales <br> de producción y emisión</h3>
+                        </div> 
+
+                        <span class="button--flex button--small button--link services__button">
+                            Ver más
+                            <i class="uil uil-arrow-right button__icon"></i>  
+                        </span>
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">
+                                    Producción de contenidos digitales, servicios de videostreaming, MOC, cubrimiento y desarrollo de eventos.
+
+                                </h4>
+                                <i class="uil uil-times services__modal-close"></i>
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p> Tripode Neewer </p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Kit de iluminación continua 800W</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Handy Cam 4K</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Kit de grabación Rode</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Y mucho más</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </article>
             </section>
 
             <!--==================== PORTFOLIO ====================-->
-            <section class="portfolio section" id="portafolio">
+            <section class="portfolio section" id="portafolio"
+            data-aos="fade-down"
+            data-aos-duration="1200">
                 <h2 class="section__title">Portafolio</h2>
                 <span class="section__subtitle">Trabajo reciente</span>
                 <!--==================== PORTFOLIO 1 ====================-->
-                <div class="portfolio__container container swiper-container">
+                <article class="portfolio__container container swiper-container">
                     <div class="swiper-wrapper">
                         <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
+                            <img src="assets/img/simuladorBa1.PNG" alt="" class="portfolio__img">
                                 <div class="portfolio__data">
                                     <h3 class="portfolio__title">Digital Twin Laboratorios</h3>
                                  <p class="portfolio__description">Digital Twin de laboratorios de Bellas Artes con uso del motor de videojuegos Unity, Esp8266, raspberry pi3 y el protocolo de comunicación MQTT.</p>
@@ -379,31 +463,26 @@
                     </div>
                 
                 <!-- Add Pagination -->
-                <div class="swiper-pagination"></div>
+                    <div class="swiper-pagination"></div>
 
-                <div class="swiper-button-next">
-                    <i class="uil uil-arrow-right swiper-portfolio-icon"></i>
-                </div>
-                <div class="swiper-button-prev">
-                    <i class="uil uil-arrow-left swiper-portfolio-icon"></i>
-                </div>
-                </div>
-                
-                
+                     <div class="swiper-button-next">
+                         <i class="uil uil-arrow-right swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                         <i class="uil uil-arrow-left swiper-portfolio-icon"></i>
+                    </div>
+                </article>               
                 
 
             </section>
 
-            <!--==================== PROJECT IN MIND ====================-->
-
-
-            <!--==================== TESTIMONIAL ====================-->
-
             <!--==================== CONTACT ME ====================-->
-            <section class="contact section" id="contact">
+            <section class="contact section" id="contact"
+            data-aos="fade-down"
+            data-aos-duration="1200">
                 <h2 class="section__title">Contáctanos</h2>
                 <span class="section__subtitle">Estemos en contacto</span>
-                <div class="contact__container container grid">
+                <article class="contact__container container grid">
                     <div>
                         <div class="contact__information"> 
                             <i class="uil uil-phone contact__icon">  </i>
@@ -427,37 +506,36 @@
                             </div>
                         </div>
                     </div>
-                    <form action="" class="contact__form grid">
+                    <form class="contact__form grid" action="https://getform.io/f/f5cd4d33-c1ec-4c4c-98a1-7639f2aab177" method="POST">
                         <div class="contact__content">
-                            <label for="" class="contact__label">Nombre</label>
+                            <label for="" name="name" placeholder="Ingresa tu nombre" class="contact__label">Nombre</label>
                             <input type="text" class="contact__input">
                         </div>
                         <div class="contact__content">
                             <label for="" class="contact__label">Email</label>
-                            <input type="email" class="contact__input">
+                            <input type="email" name="emailaddress" placeholder="Ingresa tu correo" class="contact__input">
                         </div>
                         <div class="contact__content">
                             <label for="" class="contact__label">Mensaje</label>
-                            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                            <textarea block name="message" id="" cols="0" rows="7" placeholder="Ingresa tu solicitud o mensaje" class="contact__input"></textarea>
                         </div>
                         <div>
-                            <a href="#" class="button button--flex">
+                            <button type= "submit" class="button button--flex">
                                 Enviar mensaje
                                 <i class="uil uil-message button__icon">  </i>
-                            </a>
+                            </button>
                         </div>
                     </form>
-                </div>
+                </article>
 
             </section>
         </main>
-
         <!--==================== FOOTER ====================-->
         <footer class="footer">
-            <div class="footer__bg">
+            <article class="footer__bg">
                 <div class="footer__container container grid">
                     <div>
-                        <h1 class="footer__title">Campus centro</h1>
+                        <h1 class="footer__title">Campus</h1>
                         <span class="footer__subtitle">Laboratorios</span>
                     </div>
                     <ul class="footer__links">
@@ -483,19 +561,26 @@
                         </a>
                     </div>
                 </div>
-                <p class="footer__copy">&#169; Campus centro. Todos los derechos reservados.</p>
-            </div>
+                <p class="footer__copy">&#169; Campus 2021 . Todos los derechos reservados.</p>
+            </article>
         </footer>
-        
         <!--==================== SCROLL TOP ====================-->
         <a href="#" class="scrollup" id="scroll-up">
             <i class="uil uil-arrow-up scrollup__icon"></i>
         </a>
+        <!-- Scrool on animation-->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script></script>
 
         <!--==================== SWIPER JS ====================-->
         <script src="assets/js/swiper-bundle.min.js"></script>
 
         <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>
+        <!--=================DATA AOS SCROLL JS-->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
